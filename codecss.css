@@ -1,0 +1,40 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Wrapper {
+    text-align: center;
+}
+.fafa{
+  padding: 20px;
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.dynamic-text {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation: typing 2s steps(51, end), blink-caret 0.5s step-end infinite;
+}
+.yan{
+  max-width: 10%;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+}
